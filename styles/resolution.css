@@ -1,0 +1,89 @@
+@media screen and (min-width:1024px) and (max-width: 1440px){
+  .topmenu{
+    gap: 30px;
+  }
+  
+}
+@media screen and (min-width:768px) and (max-width: 1023px){
+  .topmenu{
+    gap: 20px;
+  }
+  .topmenu > li > a{
+    font-size: 12px;
+  }
+  .news_h2{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding: 0;
+  }
+  .news_h2 > h2{
+    font-size: 18px;
+  }
+  .table1 p, .date h3{
+    font-size: 14px;
+  }
+
+  .submenu li a {
+    color: white;
+     font-size: 14px;
+     
+     font-family: 'Kurale', serif;
+   }
+}
+/*@media screen and (min-width:425px) and (max-width: 767px){ //не доделано
+  .topmenu{
+    position: absolute;
+    z-index: 1;
+    gap: 16px;
+    align-items: center;
+    text-align: start;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    box-shadow: 10px 10px 8px 0px rgba(0, 0, 0, 0.17);
+    width: 50%;
+    height: 100%;
+    border-radius: 0 30px 30px 0;
+  }
+  .topmenu > li:last-of-type{
+    margin: 0;
+  }
+  .topmenu > li > a{
+    font-size: 18px;
+    height:auto;
+    line-height:normal;
+    font-weight:normal;
+    text-transform: capitalize;
+  }
+
+  .news_h2{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding: 0;
+  }
+  .news_h2 > h2{
+    font-size: 18px;
+  }
+  .table1 p, .date h3{
+    font-size: 14px;
+  }
+  .all_news {
+    width: 100%;
+  }
+  h1{
+    font-size: 24px;
+  }
+  body {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .all_news{
+    background: rgba(0, 0, 0, 0.1);
+  }
+}*/
+
+
+
